@@ -30,7 +30,7 @@ export default function Books({ books }: BooksProps) {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">All Books</h1>
           <p className="text-xl text-slate-300 max-w-3xl">
-            Explore the complete collection of works by R.P. Ruth. Each story offers
+            Explore the complete collection of works by R.P. Ruth Books. Each story offers
             a unique perspective and unforgettable journey.
           </p>
         </div>

@@ -20,7 +20,7 @@ export default function Privacy() {
               <div>
                 <h2 className="text-2xl font-bold text-slate-900 mb-4">Introduction</h2>
                 <p className="text-slate-700 leading-relaxed">
-                  This Privacy Policy describes how R.P. Ruth ("we", "us", or "our") collects, uses, and shares your personal information when you visit our website.
+                  This Privacy Policy describes how R.P. Ruth Books ("we", "us", or "our") collects, uses, and shares your personal information when you visit our website.
                 </p>
               </div>
 

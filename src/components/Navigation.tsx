@@ -30,7 +30,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
           >
             <BookOpen className="w-8 h-8 text-slate-800 group-hover:text-slate-600 transition-colors" />
             <span className="text-xl font-bold text-slate-800 group-hover:text-slate-600 transition-colors">
-              R.P. Ruth
+              R.P. Ruth Books
             </span>
           </button>
 

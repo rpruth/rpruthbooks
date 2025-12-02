@@ -4,11 +4,11 @@ const baseUrl = 'https://rpruth.com';
 
 export const pageMeta: Record<string, PageMeta> = {
   home: {
-    title: 'R.P. Ruth - Author of Compelling Fiction',
+    title: 'R.P. Ruth Books - Author of Compelling Fiction',
     description:
-      'Discover the works of R.P. Ruth, author of compelling fiction that explores the depths of human experience and emotion. Browse available books and connect with the author.',
+      'Discover the works of R.P. Ruth Books, author of compelling fiction that explores the depths of human experience and emotion. Browse available books and connect with the author.',
     keywords: [
-      'R.P. Ruth',
+      'R.P. Ruth Books',
       'RP Ruth',
       'author',
       'fiction books',
@@ -21,11 +21,11 @@ export const pageMeta: Record<string, PageMeta> = {
     canonicalUrl: baseUrl,
   },
   books: {
-    title: 'Books by R.P. Ruth - Complete Collection',
+    title: 'Books by R.P. Ruth Books - Complete Collection',
     description:
-      'Explore the complete collection of books by R.P. Ruth. Browse fiction titles including contemporary and literary works available on Amazon.',
+      'Explore the complete collection of books by R.P. Ruth Books. Browse fiction titles including contemporary and literary works available on Amazon.',
     keywords: [
-      'R.P. Ruth books',
+      'R.P. Ruth Books books',
       'RP Ruth novels',
       'fiction books',
       'contemporary fiction',
@@ -36,11 +36,11 @@ export const pageMeta: Record<string, PageMeta> = {
     canonicalUrl: `${baseUrl}/books`,
   },
   about: {
-    title: 'About R.P. Ruth - Author Biography',
+    title: 'About R.P. Ruth Books - Author Biography',
     description:
-      'Learn about R.P. Ruth, an author dedicated to crafting narratives that explore the complexities of human nature and the beauty of the written word.',
+      'Learn about R.P. Ruth Books, an author dedicated to crafting narratives that explore the complexities of human nature and the beauty of the written word.',
     keywords: [
-      'R.P. Ruth biography',
+      'R.P. Ruth Books biography',
       'about RP Ruth',
       'author bio',
       'fiction author',
@@ -49,11 +49,11 @@ export const pageMeta: Record<string, PageMeta> = {
     canonicalUrl: `${baseUrl}/about`,
   },
   contact: {
-    title: 'Contact R.P. Ruth - Get in Touch',
+    title: 'Contact R.P. Ruth Books - Get in Touch',
     description:
-      'Connect with R.P. Ruth for inquiries, speaking engagements, media requests, or general questions about books and writing.',
+      'Connect with R.P. Ruth Books for inquiries, speaking engagements, media requests, or general questions about books and writing.',
     keywords: [
-      'contact R.P. Ruth',
+      'contact R.P. Ruth Books',
       'contact RP Ruth',
       'author contact',
       'book inquiries',
@@ -62,9 +62,9 @@ export const pageMeta: Record<string, PageMeta> = {
     canonicalUrl: `${baseUrl}/contact`,
   },
   privacy: {
-    title: 'Privacy Policy - R.P. Ruth',
+    title: 'Privacy Policy - R.P. Ruth Books',
     description:
-      'Read the privacy policy for R.P. Ruth\'s website. Learn how we collect, use, and protect your personal information.',
+      'Read the privacy policy for R.P. Ruth Books\'s website. Learn how we collect, use, and protect your personal information.',
     keywords: [
       'privacy policy',
       'data protection',
@@ -74,9 +74,9 @@ export const pageMeta: Record<string, PageMeta> = {
     canonicalUrl: `${baseUrl}/privacy`,
   },
   terms: {
-    title: 'Terms of Service - R.P. Ruth',
+    title: 'Terms of Service - R.P. Ruth Books',
     description:
-      'Terms of Service for R.P. Ruth\'s website. Review the terms and conditions for using this website.',
+      'Terms of Service for R.P. Ruth Books\'s website. Review the terms and conditions for using this website.',
     keywords: [
       'terms of service',
       'terms and conditions',
@@ -97,7 +97,7 @@ export function generateStructuredData(page: string, bookData?: any) {
       return {
         ...baseSchema,
         '@type': 'Person',
-        name: 'R.P. Ruth',
+        name: 'R.P. Ruth Books',
         alternateName: 'RP Ruth',
         jobTitle: 'Author',
         url: baseUrl,
@@ -111,8 +111,8 @@ export function generateStructuredData(page: string, bookData?: any) {
       return {
         ...baseSchema,
         '@type': 'CollectionPage',
-        name: 'Books by R.P. Ruth',
-        description: 'Complete collection of fiction books by R.P. Ruth',
+        name: 'Books by R.P. Ruth Books',
+        description: 'Complete collection of fiction books by R.P. Ruth Books',
         url: `${baseUrl}/books`,
         mainEntity: {
           '@type': 'ItemList',
@@ -123,7 +123,7 @@ export function generateStructuredData(page: string, bookData?: any) {
             name: book.title,
             author: {
               '@type': 'Person',
-              name: 'R.P. Ruth',
+              name: 'R.P. Ruth Books',
             },
             description: book.description,
             genre: book.genre,
@@ -138,12 +138,12 @@ export function generateStructuredData(page: string, bookData?: any) {
       return {
         ...baseSchema,
         '@type': 'AboutPage',
-        name: 'About R.P. Ruth',
-        description: 'Biography and information about author R.P. Ruth',
+        name: 'About R.P. Ruth Books',
+        description: 'Biography and information about author R.P. Ruth Books',
         url: `${baseUrl}/about`,
         mainEntity: {
           '@type': 'Person',
-          name: 'R.P. Ruth',
+          name: 'R.P. Ruth Books',
           jobTitle: 'Author',
           url: baseUrl,
         },
@@ -153,8 +153,8 @@ export function generateStructuredData(page: string, bookData?: any) {
       return {
         ...baseSchema,
         '@type': 'ContactPage',
-        name: 'Contact R.P. Ruth',
-        description: 'Get in touch with author R.P. Ruth',
+        name: 'Contact R.P. Ruth Books',
+        description: 'Get in touch with author R.P. Ruth Books',
         url: `${baseUrl}/contact`,
       };
 
@@ -163,7 +163,7 @@ export function generateStructuredData(page: string, bookData?: any) {
         ...baseSchema,
         '@type': 'WebPage',
         name: 'Privacy Policy',
-        description: 'Privacy Policy for R.P. Ruth website',
+        description: 'Privacy Policy for R.P. Ruth Books website',
         url: `${baseUrl}/privacy`,
       };
 
@@ -172,7 +172,7 @@ export function generateStructuredData(page: string, bookData?: any) {
         ...baseSchema,
         '@type': 'WebPage',
         name: 'Terms of Service',
-        description: 'Terms of Service for R.P. Ruth website',
+        description: 'Terms of Service for R.P. Ruth Books website',
         url: `${baseUrl}/terms`,
       };
 

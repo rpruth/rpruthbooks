@@ -14,7 +14,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <BookOpen className="w-6 h-6 text-slate-100" />
-              <span className="text-xl font-bold text-slate-100">R.P. Ruth</span>
+              <span className="text-xl font-bold text-slate-100">R.P. Ruth Books</span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Author of compelling fiction that explores the depths of human experience and emotion.
@@ -86,7 +86,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
           <p className="text-sm text-slate-400">
-            &copy; {currentYear} R.P. Ruth. All rights reserved.
+            &copy; {currentYear} R.P. Ruth Books. All rights reserved.
           </p>
         </div>
       </div>

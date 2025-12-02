@@ -15,7 +15,7 @@ export default function Home({ books, onNavigate }: HomeProps) {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-              R.P. Ruth
+              R.P. Ruth Books
             </h1>
             <p className="text-xl sm:text-2xl text-slate-600 mb-8 leading-relaxed">
               Now that I've unearthed this latent love, my plan is to embark on a journey of crafting numerous books, aiming to bring enjoyment to readers far and wide.
@@ -47,7 +47,7 @@ export default function Home({ books, onNavigate }: HomeProps) {
                 Featured Books
               </h2>
               <p className="text-slate-600">
-                Discover the latest works from R.P. Ruth
+                Discover the latest works from R.P. Ruth Books
               </p>
             </div>
             <button
