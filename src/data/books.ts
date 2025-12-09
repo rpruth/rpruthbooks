@@ -181,4 +181,16 @@ export const books: Book[] = [
     featured: true,
     available: true,
   },
+  {
+    id: '16',
+    title: 'Future-Proof',
+    subtitle: 'How to Stay Employed, Relevant, and Wealthy in the Age of AI',
+    description: 'The first big wave of job displacement will likely hit within 3–7 years (2028–2032).',
+    coverImage: 'https://m.media-amazon.com/images/I/61B07tNacjL._SL1500_.jpg',
+    amazonUrl: 'https://www.amazon.com/dp/B0G616H3YF',
+    publishDate: '2025',
+    genre: ['Business & Money', 'AI'],
+    featured: true,
+    available: true,
+  },
 ];
