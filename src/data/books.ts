@@ -193,4 +193,16 @@ export const books: Book[] = [
     featured: true,
     available: true,
   },
+  {
+    id: '17',
+    title: 'The $1,000 Emergency Fund Sprint',
+    subtitle: 'How to Save Your First Safety Net in Just 14 Days — Even on a Tight Income',
+    description: 'Stop Living One Emergency Away From Financial Stress',
+    coverImage: 'https://m.media-amazon.com/images/I/71hoWIdzzlL._SL1200_.jpg',
+    amazonUrl: 'https://www.amazon.com/dp/B0G7JF9QNM',
+    publishDate: '2025',
+    genre: ['Business & Money', 'Personal Finance'],
+    featured: true,
+    available: true,
+  },
 ];
